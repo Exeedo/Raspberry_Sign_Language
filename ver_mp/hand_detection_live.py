@@ -22,8 +22,7 @@ def process_image(image):
 			mp_drawing_styles.get_default_hand_landmarks_style(),
 			mp_drawing_styles.get_default_hand_connections_style()
 		)
-		cv2.imshow("Camera-Live", cv2.flip(annotated_image, 1))
-	return results
+	cv2.imshow("Camera-Live", cv2.flip(annotated_image, 1))
 
 if __name__ == '__main__':
 	cv2.namedWindow("Camera-Live")
