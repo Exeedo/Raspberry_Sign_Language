@@ -1,3 +1,6 @@
+# Drive link for all images and videos
+# https://drive.google.com/file/d/1EecgQClA3wcThEu9LEM6ef-evsyWpuyi/view?usp=sharing
+
 DEBUG = True
 def _print(*args, **kwargs):
 	if DEBUG:
